@@ -1,6 +1,7 @@
 ﻿#ifndef mdk_Constant_hpp
 #define mdk_Constant_hpp
 
+#include <cmath>
 
 namespace mdk
 {
@@ -25,13 +26,13 @@ ElementType GetNaNElement(const ElementType& ReferenceElement)
 
 inline double GetNaNElement(const double&)
 {
-    return std::nan(nullptr);
+    return std::nan("random_chars");
 }
 
 
 inline float GetNaNElement(const float&)
 {
-    return std::nanf(nullptr);
+    return std::nanf("random_chars");
 }
 
 

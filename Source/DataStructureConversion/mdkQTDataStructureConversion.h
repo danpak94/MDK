@@ -2,7 +2,7 @@
 
 #include <QJsonObject>
 #include <QJsonValue>
-#include <QJsonArray.h>
+#include <QJsonArray>
 
 #include "mdkJsonValue.h"
 #include "mdkJsonObject.h"
